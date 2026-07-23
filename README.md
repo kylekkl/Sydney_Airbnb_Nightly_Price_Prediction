@@ -90,7 +90,7 @@ These findings indicate that booking duration, property size, room type, and loc
 
 ```text
 .
-├── Airbnb.ipynb
+├── Sydney_Airbnb_Nightly_Price_Prediction.ipynb
 ├── README.md
 └── dataset/
     └── 2026listings.csv
