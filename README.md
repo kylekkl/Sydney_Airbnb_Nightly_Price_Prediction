@@ -6,21 +6,6 @@ This project predicts the expected nightly price of an Airbnb stay in Sydney usi
 
 The analysis includes data cleaning, exploratory data analysis, feature engineering, preprocessing, model comparison, hyperparameter tuning, evaluation, residual analysis, and permutation feature importance.
 
-## Dataset
-
-The dataset was obtained from [Inside Airbnb](https://insideairbnb.com/get-the-data/) using the detailed Sydney listings file (`listings.csv.gz`).
-
-The raw dataset is not included in this repository because of its size. To reproduce the project:
-
-1. Download the Sydney detailed listings dataset.
-2. Extract the file.
-3. Rename it to `2026listings.csv`.
-4. Place it inside the `dataset` folder.
-
-Inside Airbnb data is licensed under the Creative Commons Attribution 4.0 International License.
-
-> Inside Airbnb updates its datasets regularly, so results may differ when using a newer snapshot.
-
 ## Project Objective
 
 Build a regression model that estimates the nightly price of a Sydney Airbnb listing using features such as:
@@ -101,15 +86,6 @@ These findings indicate that booking duration, property size, room type, and loc
 - The raw-price RMSE and R² are strongly affected by these extreme observations.
 - Predictions should be treated as estimates rather than guaranteed market prices.
 
-## Repository Structure
-
-```text
-.
-├── Sydney_Airbnb_Nightly_Price_Prediction.ipynb
-├── README.md
-└── dataset/
-    └── 2026listings.csv
-```
 
 ## Tools and Libraries
 
@@ -122,14 +98,7 @@ These findings indicate that booking duration, property size, room type, and loc
 - XGBoost
 - Jupyter Notebook
 
-## How to Run
-
-1. Clone or download this repository.
-2. Place `2026listings.csv` inside the `dataset` folder.
-3. Install the required Python libraries.
-4. Open `Airbnb.ipynb` in Jupyter Notebook or JupyterLab.
-5. Run the notebook from top to bottom.
-
 ## Conclusion
-
+The final XGBoost model provides useful nightly-price estimates for typical Airbnb listings in Sydney. Its predictions are strongest for common listings, while estimates for unusually expensive properties should be interpreted with caution.
+The final XGBoost model provides useful nightly-price estimates for typical Airbnb listings in Sydney. Its predictions are strongest for common listings, while estimates for unusually expensive properties should be interpreted with caution.
 The final XGBoost model provides useful nightly-price estimates for typical Airbnb listings in Sydney. Its predictions are strongest for common listings, while estimates for unusually expensive properties should be interpreted with caution.
