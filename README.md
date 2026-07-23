@@ -6,6 +6,21 @@ This project predicts the expected nightly price of an Airbnb stay in Sydney usi
 
 The analysis includes data cleaning, exploratory data analysis, feature engineering, preprocessing, model comparison, hyperparameter tuning, evaluation, residual analysis, and permutation feature importance.
 
+## Dataset
+
+The dataset was obtained from [Inside Airbnb](https://insideairbnb.com/get-the-data/) using the detailed Sydney listings file (`listings.csv.gz`).
+
+The raw dataset is not included in this repository because of its size. To reproduce the project:
+
+1. Download the Sydney detailed listings dataset.
+2. Extract the file.
+3. Rename it to `2026listings.csv`.
+4. Place it inside the `dataset` folder.
+
+Inside Airbnb data is licensed under the Creative Commons Attribution 4.0 International License.
+
+> Inside Airbnb updates its datasets regularly, so results may differ when using a newer snapshot.
+
 ## Project Objective
 
 Build a regression model that estimates the nightly price of a Sydney Airbnb listing using features such as:
